@@ -1,0 +1,6 @@
+module Pods_nac_mobile_nextgenn {
+  umbrella header "Pods-nac_mobile_nextgenn-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_nac_mobile_nextgenn_nac_mobile_nextgennTests : NSObject
+@end
+@implementation PodsDummy_Pods_nac_mobile_nextgenn_nac_mobile_nextgennTests
+@end
