@@ -33,5 +33,17 @@
   },
   "jest": {
     "preset": "react-native"
-  }
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibrunera/NextGenn-Nac-Mobile.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ibrunera/NextGenn-Nac-Mobile/issues"
+  },
+  "homepage": "https://github.com/ibrunera/NextGenn-Nac-Mobile#readme",
+  "description": ""
 }
