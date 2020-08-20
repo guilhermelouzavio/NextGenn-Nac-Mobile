@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
     },
     body:{
         alignItems:'center',
-        height: '70%',
+        height: '60%',
         width:'100%',
         justifyContent:'space-evenly',
     },
@@ -66,6 +66,22 @@ const styles = StyleSheet.create({
       },
       botaoText: {
         fontSize: 22,
+        fontWeight: '600',
+        color: 'white',
+      },
+      botaoExit:{
+        height: 30,
+        width: '30%',
+        backgroundColor: '#250954',
+        borderWidth: 1,
+        borderRadius: 8,
+        borderColor: 'red',
+        margin: 20,
+        alignItems: 'center',
+        justifyContent: 'center',
+      },
+      exitText:{
+        fontSize: 15,
         fontWeight: '600',
         color: 'white',
       },

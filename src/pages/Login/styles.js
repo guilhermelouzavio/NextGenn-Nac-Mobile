@@ -8,6 +8,10 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     backgroundColor: '#250954',
   },
+  text:{
+    color:'white',
+    fontSize: 19,
+  },
   textoInput: {
     height: 50,
     width: '70%',
@@ -17,7 +21,7 @@ const styles = StyleSheet.create({
     backgroundColor: 'white',
     paddingLeft: 15,
     fontSize: 25,
-    margin: 5,
+    margin: 15,
   },
   botao: {
     height: 50,

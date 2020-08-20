@@ -21,19 +21,19 @@ const styles = StyleSheet.create({
         paddingTop: 30,
         paddingBottom:120,
     },
-    botao: {
-        alignItems: 'center',
-        backgroundColor: 'red',
-        borderRadius: 8,
-        borderWidth: 1,
-        borderColor: 'white',
+    botaoExit:{
         height: 30,
+        width: '30%',
+        backgroundColor: '#250954',
+        borderWidth: 1,
+        borderRadius: 8,
+        borderColor: 'red',
         margin: 20,
+        alignItems: 'center',
         justifyContent: 'center',
-        width: '25%',
       },
-      botaoText: {
-        fontSize: 18,
+      exitText:{
+        fontSize: 15,
         fontWeight: '600',
         color: 'white',
       },
