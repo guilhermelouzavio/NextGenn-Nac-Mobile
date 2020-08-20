@@ -8,18 +8,47 @@ const styles = StyleSheet.create({
         backgroundColor: '#250954',
         flex: 1,
     },
-    logoImg:{
-        resizeMode: 'contain'
+    logoNasa:{
+        resizeMode: 'contain',
+        height:'30%',
+    },
+    certificateOut:{
+        backgroundColor:'white',
+        height:'50%',
+        width:'95%',
+        alignItems:'center',
+        justifyContent:'center',
+        
+    },
+    certificateIn:{
+        alignItems:'center',
+        justifyContent:'space-around',
+        height:'98%',
+        width:'98%',
+        borderWidth: 5,
+        borderColor:'red',
+    },
+    logoSpace:{
+        resizeMode: 'contain',
+        height:100,
+        width:100,
     },
     text:{
-        color:'white',
+        color:'#250954',
         fontSize: 19,
     },
     textNome:{
-        color:'white',
-        fontSize: 40,
-        paddingTop: 30,
-        paddingBottom:120,
+        color:'#250954',
+        fontSize: 28,
+        fontStyle:'italic',
+        fontWeight:'700', 
+        textDecorationLine:'underline',
+
+    },
+    textBottom:{
+        color:'#250954',
+        fontSize: 15,
+        textAlign:'center',
     },
     botaoExit:{
         height: 30,
@@ -31,6 +60,7 @@ const styles = StyleSheet.create({
         margin: 20,
         alignItems: 'center',
         justifyContent: 'center',
+        marginTop:40
       },
       exitText:{
         fontSize: 15,

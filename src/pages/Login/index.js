@@ -17,8 +17,8 @@ const Login = () => {
   //navigation
   const navigation = useNavigation();
   
-  function navigateTo(nome, usuario){
-    navigation.navigate(nome,{usuario});
+  function navigateTo(nome, user){
+    navigation.navigate(nome, user);
   }
 
   //handler
@@ -29,7 +29,9 @@ const Login = () => {
           read('senha',(errors, dataSenha)=>{
             if(!errors){
               if(senha===dataSenha){
-                navigateTo('Main', {usuario: usuario})
+                navigateTo('Main', {usuario})
+                setUsuario('');
+                setSenha('');
               }else{
                 alert('Usuário ou senha incorretos')
               }
@@ -48,12 +50,14 @@ const Login = () => {
         style={styles.textoInput} 
         placeholder={'Usuário'}
         onChangeText={(txt)=>setUsuario(txt)}
+        value={usuario}
       />
       <TextInput
         style={styles.textoInput}
         secureTextEntry={true}
         placeholder={'Senha'}
         onChangeText={(txt)=>setSenha(txt)}
+        value={senha}
       />
       <TouchableOpacity onPress={() => handleLogin()} style={styles.botao}>
         <Text style={styles.botaoTexto}>Entrar</Text>
